@@ -1,0 +1,38 @@
+FINAL SOLOW ESTIMATION RESULTS
+==================================================
+
+Target α: 0.3192
+Achieved α: 0.319200
+Difference: 0.00000000
+Optimal Parameters:
+  Delta: 0.1500
+  Labor scale: 104.65
+  Investment scale: 5.01
+  Skip periods: 3
+
+MODEL SUMMARY:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.388
+Model:                            OLS   Adj. R-squared:                  0.386
+Method:                 Least Squares   F-statistic:                     158.0
+Date:                Thu, 28 Aug 2025   Prob (F-statistic):           2.20e-28
+Time:                        05:07:43   Log-Likelihood:                 772.02
+No. Observations:                 251   AIC:                            -1540.
+Df Residuals:                     249   BIC:                            -1533.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0040      0.001      5.255      0.000       0.002       0.005
+0              0.3192      0.025     12.569      0.000       0.269       0.369
+==============================================================================
+Omnibus:                      224.125   Durbin-Watson:                   1.780
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7944.145
+Skew:                          -3.267   Prob(JB):                         0.00
+Kurtosis:                      29.775   Cond. No.                         35.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

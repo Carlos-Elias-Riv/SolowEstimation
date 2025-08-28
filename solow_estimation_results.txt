@@ -1,0 +1,35 @@
+SOLOW GROWTH MODEL ESTIMATION RESULTS
+==================================================
+
+Estimated α: 0.581922
+Target α: 0.3192
+Difference: 0.262722
+R-squared: 0.5763
+Number of observations: 250
+
+FULL MODEL SUMMARY:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.576
+Model:                            OLS   Adj. R-squared:                  0.575
+Method:                 Least Squares   F-statistic:                     337.3
+Date:                Thu, 28 Aug 2025   Prob (F-statistic):           3.77e-48
+Time:                        05:05:47   Log-Likelihood:                 650.48
+No. Observations:                 250   AIC:                            -1297.
+Df Residuals:                     248   BIC:                            -1290.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0060      0.001     -5.243      0.000      -0.008      -0.004
+0              0.5819      0.032     18.367      0.000       0.520       0.644
+==============================================================================
+Omnibus:                       54.916   Durbin-Watson:                   0.671
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              822.508
+Skew:                           0.247   Prob(JB):                    2.48e-179
+Kurtosis:                      11.872   Cond. No.                         27.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
